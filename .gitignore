@@ -1,0 +1,33 @@
+# ---- ESP-IDF ----
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/managed_components/
+firmware/dependencies.lock
+*.bin
+*.elf
+*.map
+
+# ---- 固件主机测试 ----
+firmware/test_host/build/
+firmware/test_host/**/*.o
+firmware/test_host/**/*.exe
+
+# ---- Node / 后端 / 后台 ----
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+
+# ---- 微信小程序 ----
+miniprogram/project.private.config.json
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
